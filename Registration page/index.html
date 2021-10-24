@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* background-image:url(https://image.freepik.com/free-photo/tropical-product-background_53876-89491.jpg); */
+            /* background-repeat: no-repeat; */
+            /* background-size: cover; */
+            overflow: hidden;
+
+        }
+        a{
+            text-decoration: none;
+            color: rgb(37, 175, 37);
+            font-weight: bold;
+            font-size: 20px;
+            
+            
+        }
+        .main{
+            position:relative;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            
+            background-image:url(https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top:5%;
+        
+        }
+        .signup{
+
+    
+            background:url(https://www.teahub.io/photos/full/7-77427_black-classic-background-hd.jpg);
+            width: 30%;
+            text-align: center;
+            margin: 0% 5% 5% 35%;
+            padding: 60px 0px 60px 0px;
+            text-align:center;
+            border-radius: 50px;
+            border: black 1px solid;
+            box-shadow: 10px 10px 10px black;
+            color: whitesmoke;
+            
+            
+        }
+
+
+        #username, #phone,#Email,#selector,#username,#create,#confirm{
+            margin: 10px;
+        
+            
+
+           
+        }
+        h1{
+            margin: 20px;
+            color: white;
+            text-shadow:4px 4px 1px green ;
+            font-size: 45px;
+            
+        }
+        h3{
+            margin: 10px;
+        }
+        input{
+            border-radius: 6px;
+            background-color:green;
+            box-shadow:2px 2px 1px black;
+            border:black 2px solid;
+            color: whitesmoke;
+             
+        }
+        select,input::placeholder{
+            color: black;
+        }
+        label{
+            font-weight: bold;
+            box-shadow: 2px 7px 10px black;
+        }
+        select{
+            border-radius: 6px;
+
+        }
+
+        #Button{
+            padding: 5px 15px;
+            color:whitesmoke;
+            font-weight: bold;
+            margin: 15px;
+        }
+        #Button:hover{
+            transform: translate(3px);
+            background-color: greenyellow;
+            color: black;
+
+        }
+        a:hover{
+            color:greenyellow;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="signup">
+            <h1>Register here..</h1>
+            <form>
+            <label>Name</label>
+            <input id="username" type="text" placeholder="Type your name" required minlength="3">
+            <br>
+            <label>phone</label>
+            <input id="phone" type="text" placeholder="Type your phone no." required maxlength="10">
+            <br>
+            <label>Email</label>
+            <input id="Email" type="email" placeholder="type your Email" pattern=".+@gmail.com" required>
+            <br>
+            <h3>Gender:</h3>
+            <input id="Male" type="radio" name="male" value="m">
+            <label for="male" style="color: rgb(23, 160, 23);">male</label>
+            <input id="feMale" type="radio" name="male" value="f">
+            <label for="female" style="color: rgb(23, 160, 23);">female</label>
+            <br>
+            <label for="selector">Select your country</label>
+            <select id="selector">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Uk">Uk</option>
+                <option value="UAE">UAE</option>
+                <option value="Rus">Russia</option>
+                <option value="other">Other country</option>
+
+            </select>
+            <br>
+            <label>Create your password</label>
+            <input id="create" type="text" placeholder="Enter your password" required minlength="3">
+            <br>
+            <label>Confirm your password</label>
+            <input id="confirm" placeholder="Confirm your password" type="text" required minlength="3">
+            <br>
+            <input id="Button" type="submit">
+            <input id="Button" type="reset">
+
+            </form>
+            <a href="#">Already a User?</a>
+        </div>
+    </div>
+</body>
+</html>
