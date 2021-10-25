@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <style>
+        body {
+            background-image: url(https://image.freepik.com/free-vector/sports-style-halftone-memphis-black-background_1017-33619.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            height: auto;
+            width: auto;
+
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: green;
+
+        }
+
+        #box {
+            background: rgb(189, 76, 11);
+            color: black;
+            width: 450px;
+            height: 700px;
+            margin: 100px 0px 100px 560px;
+            padding-top: 50px;
+            box-shadow: 10px 10px 10px black;
+
+
+        }
+
+        input {
+            color: white;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            height: 25px;
+            box-shadow: 6px 4px 2px black;
+            border: none;
+            text-align: center;
+            margin-left: 145px;
+            background-image:linear-gradient(rgb(189, 76, 11),rgb(43, 34, 34));
+        }
+        input::placeholder{
+            color:rgb(138, 106, 106);
+        }
+
+        #box label {
+            font-weight:bolder;
+            margin-top: auto;
+            margin-left: 60px;
+            
+
+        }
+
+        #box h2 {
+            margin-left: 180px;
+            width: 200px;
+            margin-bottom: 40px;
+            font-size: 30px;
+
+
+
+        }
+
+        #button {
+            background-color: rgb(189, 76, 11);
+            color: white;
+            border: black 1px solid;
+            box-shadow: 3px 3px 4px black;
+            margin: 6px;
+        }
+
+        #button:hover {
+            background-color: white;
+            color: rgb(189, 76, 11);
+            transform: translate(4px);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <h2>Sign-up</h2>
+        <form>
+
+
+            <label type="name">Username :</label>
+            <br>
+            <input type="name" placeholder="Username" required minlength="6" pattern="a-Z" />
+            <br>
+              
+            <label type="phone no.">Phone :</label>
+            <br>
+            <input type="text" placeholder="phone" required maxlength="10" pattern="0-9"/>
+            <br>
+
+            <label type="email">Email :</label>
+            <br>
+            <input type="email" placeholder="Email" required pattern=".+@gmail.com" />
+            <br>
+
+            <label type="Password"> Create your Password :</label>
+            <br>
+            <input type="password" placeholder="Password"  required minlength="6" />
+            <br>
+
+            <label type="Password"> Confirm your Password :</label>
+            <br>
+            <input type="password" placeholder="Password" required  required minlength="6" />
+            <br>
+
+
+            <input id="button" type="reset"  style="margin-left: 160px;"/>
+            <input id="button" type="submit" /><br>
+            <h4 style="margin-left: 150px;">Don't have an account?</h4>
+            <a href="index.html" style="margin-left: 200px;" target="_blank">Login?</a>
+        </form>
+    </div>
+
+</body>
+
+</html>

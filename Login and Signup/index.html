@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+         body {
+        background-image: url(https://image.freepik.com/free-vector/sports-style-halftone-memphis-black-background_1017-33619.jpg);
+        background-size:cover ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color:green;
+
+        }
+      #box{
+          background: rgb(189, 76, 11);
+          color: black;
+          width: 350px;
+          height: 500px;
+          margin:100px 0px 0px 580px;
+          padding-top: 50px;
+          box-shadow: 10px 10px 10px black;
+          
+
+      }
+      input{
+          margin-bottom:20px;
+          margin-top: 10px;
+          border-radius: 20px;
+          height: 25px;
+          box-shadow: 6px 4px 2px black;
+          border: none;
+          text-align: center;
+      }
+      #box label{
+          font-weight: bold;
+          margin-top:auto;
+          
+      }
+      #box h2{
+          margin-left: 125px;
+          width: 100px;
+          margin-bottom: 40px;
+          font-size: 30px;
+         
+          
+
+      }
+      #button{
+          background-color:rgb(189, 76, 11);
+          color:white ;
+          border: black 1px solid;
+          box-shadow: 3px 3px 4px black;
+          margin: 6px;
+      }
+      #button:hover{
+          background-color:white;
+          color:rgb(189, 76, 11);
+          transform: translate(4px);
+          
+      }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h2>Login</h2>
+        <form>
+            
+            
+            <label type="name" >Username</label>
+            <br>
+            <input type="name"  placeholder="Username" required minlength="3" pattern="a-Z" />
+            <br>
+            <label type="Password" >Password</label>
+            <br> 
+            <input type="password" placeholder="Password" required minlength="6" />
+            <br>
+                
+            
+            <input id="button" type="reset" />
+            <input id="button" type="submit" name="Login" /><br>
+            <h4 >Don't have an account?</h4>
+            <a href="signup.html" target="_blank">Click here to register</a>
+        </form>
+    </div>
+    
+</body>
+</html>
