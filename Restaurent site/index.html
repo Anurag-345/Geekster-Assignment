@@ -17,9 +17,13 @@
         .section-1{
             position:relative;
             width:100%;
-            overflow: auto;
-            background: linear-gradient(to right,rgb(235, 150, 39),rgb(58, 48, 20));
+            /* overflow: auto; */
             
+            
+        }
+        .header{
+            background: linear-gradient(to right,rgb(235, 150, 39),rgb(58, 48, 20));
+
         }
 
         
@@ -50,7 +54,7 @@
         .image-div{
             position: relative;
             width: 100%;
-            background-attachment: fixed;
+            
         }
 
         .image-area{
@@ -96,12 +100,13 @@
             height: 400px;
         }
 
-        .footer {
+        footer {
         
         background-color: aqua;
         color: white;
         font-size: 15px;
         text-align: center;
+        height: 400px;
         }
 
 
@@ -120,21 +125,22 @@
 </head>
 <body>
 <div class="main">
+    <div class=header>
+        <div id=navBrand>
+    
+            <h2>Food Booth</h2>
+        </div>
+        <div id=NavItems>
+            <a href="#" , target=blank>Home</a>
+            <a href="#" , target=blank>Pizza</a>
+            <a href="#" , target=blank>Burgers</a>
+            <a href="#" , target=blank>Soft-Drinks</a>
+    
+        </div>
+    </div>
     <div class="section-1">
         <!-- header div -->
-        <div class=header>
-            <div id=navBrand>
         
-                <h2>Food Booth</h2>
-            </div>
-            <div id=NavItems>
-                <a href="#" , target=blank>Home</a>
-                <a href="#" , target=blank>Pizza</a>
-                <a href="#" , target=blank>Burgers</a>
-                <a href="#" , target=blank>Soft-Drinks</a>
-        
-            </div>
-        </div>
         <!-- header div close -->
 
     </div>
@@ -193,7 +199,7 @@
     <!-- text div -->
     <!-- Footer div tag -->
     
-    <div class="footer">
+    <div id="footer">
         <div>
             <a href="https://www.facebook.com/anurag.nayak.106" target="_blank" class="fa fa-facebook"></a>
             <a href="https://www.linkedin.com/in/anurag-nayak-994604218/" target="_blank" class="fa fa-linkedin"></a>
