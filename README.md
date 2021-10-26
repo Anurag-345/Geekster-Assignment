@@ -1,5 +1,5 @@
 # Geekster-Assignment
-This Repository contains all the Geekster web fundamental Course assignments.
+This Repository contains all the Geekster web fundamental Course assignments. 
 Here are the hosted links:
 portfolio box:https://anurag-345.github.io/Geekster-Assignment/Assignment-1(Portfolio%20box)/
 Login and signup: https://anurag-345.github.io/Geekster-Assignment/Login%20and%20Signup/
