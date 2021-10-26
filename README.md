@@ -7,3 +7,4 @@ Restaurant page:https://anurag-345.github.io/Geekster-Assignment/Restaurent%20si
 Test assignment : https://anurag-345.github.io/Geekster-Assignment/Test%20assignment,Registration%20page/
 parallax effect : https://anurag-345.github.io/Geekster-Assignment/parallax/
 precourse assignment : https://anurag-345.github.io/Geekster-Assignment/precourse%20Assignment/
+  
