@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="feedback">
+            <h1>Feedback</h1>
+            <form>
+                <label id="inputs">Name</label>
+                <input id="username" type="text" placeholder="Type your name" required minlength="3" pattern="[a-Z]">
+                <br>
+
+                <label id="inputs">Phone</label>
+                <input id="phone" type="tel" placeholder="Type your phone no." required maxlength="10">
+                <br>
+
+                <label id="inputs">Email</label>
+                <input id="Email" type="email" placeholder="type your Email" pattern=".+@gmail.com" required>
+                <br>
+                <br>
+                <hr>
+
+                <label id ="radios">Food:</label>
+                <input id="Male"  type="radio" name="food" value="m" required>
+                <label for="male" >Excellent</label>
+                <input id="feMale" type="radio" name="food" value="f">
+                <label for="female" >very Good</label>
+                <input id="feMale" type="radio" name="food" value="f">
+                <label for="female" >Good</label>
+                <input id="feMale" type="radio" name="food" value="f">
+                <label for="female" >Poor</label>
+                <br>
+                <hr>
+
+                <label id="radios">Presentation:</label>
+                <input id="Male" type="radio" name="presentation" value="m" required>
+                <label for="male">Excellent</label>
+                <input id="feMale" type="radio" name="presentation" value="f">
+                <label for="female">very Good</label>
+                <input id="feMale" type="radio" name="presentation" value="f">
+                <label for="female">Good</label>
+                <input id="feMale" type="radio" name="presentation" value="f">
+                <label for="female">Poor</label>
+                <br>
+                <hr>
+
+                <label id="radios">Hygiene:</label>
+                <input id="Male" type="radio" name="hyhiene" value="m" required>
+                <label for="male">Excellent</label>
+                <input id="feMale" type="radio" name="hyhiene" value="f">
+                <label for="female">very Good</label>
+                <input id="feMale" type="radio" name="hyhiene" value="f">
+                <label for="female">Good</label>
+                <input id="feMale" type="radio" name="hyhiene" value="f">
+                <label for="female">Poor</label>
+                <br>
+                <hr>
+
+                <label id="radios">Overall service:</label>
+                <input id="Male" type="radio" name="service" value="m" required>
+                <label for="male">Excellent</label>
+                <input id="feMale" type="radio" name="service" value="f">
+                <label for="female">very Good</label>
+                <input id="feMale" type="radio" name="service" value="f">
+                <label for="female">Good</label>
+                <input id="feMale" type="radio" name="service" value="f">
+                <label for="female">Poor</label>
+                <br>
+                <hr>
+                
+                <button class="inputs" type="submit">Submit</button>
+                <br>
+                <button class="inputs"  type="reset">Reset</button>
+
+            </form>
+            <h3>Thankyou for your valuable feedback</h3>
+            
+        </div>
+        <div class="para">
+            <p>Please give your <br>valuable feedback!</p>
+        </div>
+    </div>
+</body>
+
+</html>
