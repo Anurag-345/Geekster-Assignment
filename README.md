@@ -8,5 +8,6 @@ Test assignment : https://anurag-345.github.io/Geekster-Assignment/Test%20assign
 parallax effect : https://anurag-345.github.io/Geekster-Assignment/parallax/ <br />
 survey form : https://anurag-345.github.io/Geekster-Assignment/survey%20form/ <br />
 precourse assignment : https://anurag-345.github.io/Geekster-Assignment/precourse%20Assignment/ <br />
+three triangles : https://anurag-345.github.io/Geekster-Assignment/three%20triangles/ <br />
 
   
