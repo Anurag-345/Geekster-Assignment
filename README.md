@@ -10,6 +10,7 @@ survey form : https://anurag-345.github.io/Geekster-Assignment/survey%20form/ <b
 precourse assignment : https://anurag-345.github.io/Geekster-Assignment/precourse%20Assignment/ <br />
 three triangles : https://anurag-345.github.io/Geekster-Assignment/three%20triangles/ <br />
 navbar and center div : https://anurag-345.github.io/Geekster-Assignment/navbar%20and%20div/ <br />
+sticky list : https://anurag-345.github.io/Geekster-Assignment/sticky%20list/ <br />
 
 
   
