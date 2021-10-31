@@ -1,0 +1,306 @@
+
+        .main{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            margin: auto;
+
+        }
+        .cartoon{
+            position: relative;
+            top: 10%;
+            left:550px;
+            height: 700px;
+            width: 700px;
+        }
+        /* face part */
+        .forhead{
+            position: relative;
+            top: 70px;
+            left: 50px;
+            height: 0px;
+            width: 0px;
+            background-color: blanchedalmond;
+            border-top: black 50px solid;
+            border-bottom:blanchedalmond 70px solid;
+            border-left: black 150px solid;
+            border-right: black 150px solid;
+              border-radius:  40% 40% 0% 0%;
+            
+
+        }
+        .face{
+            position: relative;
+             height: 180px;
+            width: 300px;
+            background-color: blanchedalmond;
+            border-radius:  0% 0% 40% 40%;
+            top: 70px;
+            left: 50px;
+            /* border-top:black 100px solid; */
+        }
+        /* face part end */
+
+
+
+        /* hari part */
+        .hair-1{
+            position: relative;
+            background-color: black;
+            height: 200px;
+            width: 200px;
+            float: left;
+            left: 40px;
+            top: 50px;
+            border-radius: 200px ;
+            overflow: hidden;
+        }
+        .spike{
+            position: relative;
+            right: 10px;
+           top: 5px;
+            background-color: red;
+            height: 0;
+            width: 0px;
+            float:left;
+            border-top: white 3px solid;
+            border-bottom:black 65px solid;
+            border-left: white 10px solid;
+            border-right: white 10px solid;
+            z-index: -2;
+
+        }
+        .hair-2{
+            position: relative;
+            background-color: black;
+            height: 200px;
+            width: 200px;
+            float: right;
+            top: 50px;
+            right: 340px;
+
+            border-radius: 200px ;
+        }
+
+        /* hair part end */
+
+
+
+        /* ear part  */
+        .ear-1{
+            position: relative;
+            height:50px;
+            width: 50px ;
+            float:left;
+            background-color: blanchedalmond;
+            border-radius: 30px;
+            right: 190px;
+            top: 65px;
+         
+        } 
+        .ear-2{
+            position: relative;
+            height:50px;
+            width: 50px ;
+            float:left;
+            background-color: blanchedalmond;
+            border-radius: 30px;
+            left: 90px;
+            top: 65px;
+            align-items: center;
+         
+        } 
+        .ear-1 div{
+            position: relative;
+            height:15px;
+            width: 15px ;
+            top:17px;
+            left: 15px;
+            background-color: black;
+            border-radius: 30px;
+           
+        }
+        .ear-2 div{
+            position: relative;
+            height:15px;
+            width: 15px ;
+            top:17px;
+            left: 15px;
+            background-color: black;
+            border-radius: 30px;
+           
+        }
+
+        /* ear part end */
+
+
+        /* eyebrow part */
+        #eyebrow-1{
+            position: relative;
+            float:right;
+            height:50px;
+            width: 65px ;
+            bottom: 70px;
+            right: 60px;
+            background-color: black;
+            border-radius: 100%;
+        }
+        #eyebrow-2{
+            position: relative;
+            float:left;
+            height:50px;
+            width: 65px ;
+            bottom: 100px;
+            right: 20px;
+            /* left: 60px; */
+            background-color: black;
+            border-radius: 100%;
+        }
+
+        /* eyebrow part end */
+
+
+        /* eye part  */
+        #eye-1{
+            position: relative;
+            float:left;
+            height:90px;
+            width: 85px ;
+            bottom: 90px;
+            left: 55px;
+            background-color: blanchedalmond;
+            border-radius: 100%;
+            z-index: 10;
+        }
+        #eye-1 #black{
+            position: relative;
+            float:left;
+            height:70px;
+            top: 5px;
+            width: 45px ;
+            left: 25px;
+            background-color: black;
+            border-radius: 100%;
+            z-index: 10;
+        }
+        #eye-1 #black div{
+            position: relative;
+            float:left;
+            height:50px;
+            width: 25px ;
+            top: 5px;
+            left: 10px;
+            background-color: white;
+            border-radius: 100%;
+    
+        }
+        #eye-2{
+            position: relative;
+            float:left;
+            height:90px;
+            width: 85px ;
+            bottom: 90px;
+            left: 15px;
+            background-color: blanchedalmond;
+            border-radius: 100%;
+
+        }
+        #eye-2 #black{
+            position: relative;
+            float:left;
+            height:70px;
+            width: 45px ;
+            top: 5px;
+            left: 15px;
+            background-color: black;
+            border-radius: 100%;
+    
+        }
+        #eye-2 #black div{
+            position: relative;
+            float:left;
+            height:50px;
+            width: 25px ;
+            top: 5px;
+            left: 10px;
+            background-color: white;
+            border-radius: 100%;
+        
+        }
+
+        /* eye part end */
+
+        /* mustache part */
+        #mustache{
+            position: relative;
+            height: 10px;
+            width: 70px;
+            top: 15px;
+            left: 10px;
+            background-color: black;
+            border-radius: 100%;
+            box-shadow: 0px 0px 10px black;
+
+
+        }
+        #mustache-back{
+            position: relative;
+            float:left;
+            height:40px;
+            width: 95px ;
+            bottom: 90px;
+            left: 100px;
+            background-color:blanchedalmond;
+            border-radius: 100%;
+            z-index: 10;
+        }
+
+        /* mustache part end  */
+
+        /* mouth part */
+        #mouth{
+            position: relative;
+            float:left;
+            height:70px;
+            width: 65px ;
+            left: 20px;
+            bottom: 90px;
+            background-color: grey;
+            border-radius: 100%;
+
+        }
+        /* mouth part */
+
+        /* shirt part */
+        .shirt{
+            position: relative;
+            top: 70px;
+            left: 25px;
+            height: 130px;
+            width:350px;
+            background-color: green;
+            border-radius: 20%;
+        }
+        .shirt div{
+            position: relative;
+            left:35%;
+            bottom: 20%;
+            height: 100px;
+            width: 100px;
+            background-color: blanchedalmond;
+            border-radius: 100%;
+        }
+        /* shirt part end */
+        .backdiv{
+            position: relative;
+            bottom: 400px;
+            height: 400px;
+            width: 400px;
+            background-color: rgb(49, 46, 46);
+            border-radius: 100%;
+            z-index: -3;
+        
+
+        }
