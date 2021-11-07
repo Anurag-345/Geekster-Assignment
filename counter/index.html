@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+       
+        * {
+            margin: 0px;
+            padding: 0;
+        }
+        /* main div */
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background: url(https://i1.wp.com/cms.babbel.news/wp-content/uploads/2019/01/Counting_Danish.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+      /* inner div */
+        .Inner-div {
+            height: 50vh;
+            width: 30vw;
+            background-color:rgb(245, 212, 221);
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* input box */
+        input {
+            border: 0px;
+            background-color: #faeaea;
+            text-align: center;
+            margin: 20px;
+            width: 17rem;
+            height: 40px;
+            font-size: large;
+            box-shadow: 4px 4px 10px #000000;
+        }
+        /* button section */
+        .button{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+       
+        button {
+            box-shadow: 4px 4px 10px black;
+            border-radius: 10px;
+            border: 0px;
+            text-align: center;
+            margin: 20px;
+            width: 7rem;
+            height: 2rem;
+            font-size: large;
+        }
+
+       
+        button:hover {
+            background-color: rgb(50, 118, 185);
+            transform: translate(5px);
+
+        }
+    </style>
+    <script>
+
+        function clicked(id) {
+            var inputbox = document.getElementById('box')
+            inputbox.value = 0
+        }
+      
+        function attempt(id) {
+            var a = document.getElementById('box').value
+            var box = document.getElementById('box')
+            var b = parseInt(a)                      
+            b = b + 1
+            box.value = b
+
+        }
+     
+        function sub(id) {
+            var a = document.getElementById('box').value
+            var box = document.getElementById('box')
+            var b = parseInt(a)                     
+            b = b - 1
+            box.value = b
+        }
+    </script>
+</head>
+
+<body>
+    <!-- main -->
+    <div class="main">
+
+       <!-- center div -->
+        <div class="Inner-div">
+            <h1>Counter</h1>
+
+            <!-- input field -->
+            <input type='text' id='box' value="0" disabled />
+            
+            <!-- buttons -->
+            <div class="buttons">
+                <button id='add' onclick=" attempt('add') ">+</button>
+                <button id="reset" onclick="sub('reset')">-</button>
+            </div>
+            <button id='one' onclick=" clicked('one') ">Reset</button>
+           
+           
+        </div>
+    </div>
+</body>
+
+</html>
