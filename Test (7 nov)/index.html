@@ -1,12 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown</title>
+    <title>CountDown</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* main */
+        .main{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            background:url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg);
+            background-repeat: no-repeat;
+             background-size: cover;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+       /* center-div */
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            height: 50vh;
+            width:30vw;
+            display: flex;
+            background:burlywood;
+        }
+
+
+        #countdownbox {
+            display: flex;
+            flex-direction: column;
+            height: 50vh;
+            width: 30vw;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #33456b;
+            font-weight: 500px;
+            letter-spacing: 3px;
+           
+        }
+
+        #countdown {
+            margin-top: 50px;
+            width: 100%;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #countdown div {
+            position: relative;
+            width: 100px;
+            text-align: center;
+            color: aliceblue;
+            font-size: 2.5rem;
+            font-weight: 500;
+            /* margin: 0 20px; */
+            margin-top: -20px;
+        }
+
+        #countdown div::before {
+            content: "text";
+            position: absolute;
+            bottom: -35px;
+            left: 0;
+            width: 100%;
+            height: 35px;
+            color: aliceblue;
+            font-size: 0.4em;
+            font-weight: 500;
+            line-height: 35px;
+            text-transform: uppercase;
+        }
+
+        #countdown div#day::before {
+            content: "Days";
+        }
+
+        #countdown div#hour::before {
+            content: "hours";
+        }
+
+        #countdown div#minute::before {
+            content: "minutes";
+        }
+
+        #countdown div#second::before {
+            content: "seconds";
+            
+        }
+
+        
+    </style>
 </head>
+
 <body>
-    
+    <!-- main div -->
+    <div class="main">
+        
+            <div id="container">
+                <div id="countdownbox">
+                    <!-- heading -->
+                    <h2>NEW YEAR IN-</h2>
+                    <div id="countdown">
+                        <!-- timer -->
+                        <div id="day">#</div>
+                        <div id="hour">#</div>
+                        <div id="minute">#</div>
+                        <div id="second">#</div>
+                    </div>
+                </div>
+            </div>
+        
+        
+    </div>
+   <!-- javascript -->
+    <script type="text/javascript">
+        const countDate = new Date('jan 01, 2022 00:00:00').getTime();
+
+        function birthday() {
+            const now = new Date().getTime();
+            gap = countDate - now;
+
+            const second = 1000;
+            const minute = second * 60;
+            const hour = minute * 60;
+            const day = hour * 24;
+
+            const d = Math.floor(gap / (day));
+            const h = Math.floor((gap % (day)) / (hour));
+            const m = Math.floor((gap % (hour)) / (minute));
+            const s = Math.floor((gap % (minute)) / (second));
+
+            document.getElementById('day').innerHTML = d;
+            document.getElementById('hour').innerHTML = h;
+            document.getElementById('minute').innerHTML = m;
+            document.getElementById('second').innerHTML = s;
+        }
+
+        setInterval(function () {
+            birthday();
+
+        }, 1000);
+    </script>
 </body>
+
 </html>
