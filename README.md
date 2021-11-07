@@ -11,6 +11,8 @@ precourse assignment : https://anurag-345.github.io/Geekster-Assignment/precours
 three triangles : https://anurag-345.github.io/Geekster-Assignment/three%20triangles/ <br />
 navbar and center div : https://anurag-345.github.io/Geekster-Assignment/navbar%20and%20div/ <br />
 sticky list : https://anurag-345.github.io/Geekster-Assignment/sticky%20list/ <br />
+instagram post : https://anurag-345.github.io/Geekster-Assignment/instagram%20post/ <br/>
+
 
 
   
