@@ -11,6 +11,11 @@ precourse assignment : https://anurag-345.github.io/Geekster-Assignment/precours
 three triangles : https://anurag-345.github.io/Geekster-Assignment/three%20triangles/ <br />
 navbar and center div : https://anurag-345.github.io/Geekster-Assignment/navbar%20and%20div/ <br />
 sticky list : https://anurag-345.github.io/Geekster-Assignment/sticky%20list/ <br />
+instagram post : https://anurag-345.github.io/Geekster-Assignment/instagram%20post/ <br/>
+flex reataurent site : https://anurag-345.github.io/Geekster-Assignment/Responsive%20Restaurent%20site%20using%20flex/ <br/>
+prompt box : https://anurag-345.github.io/Geekster-Assignment/promt%20,3rd%20nov/ <br/>
+counter: 
+
 
 
   
