@@ -11,7 +11,10 @@
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
         .main{
+            /* background:url(https://blog.verifirst.com/hubfs/Blog_Images/How%20do%20background%20check%20companies%20get%20information.png); */
             margin-top: 40vh;
+            background-size: cover;
+            /* height:100vh; */
             width: 100vw;
             display: flex;
             flex-direction: column;
@@ -23,11 +26,12 @@
             top: 50%;
             height:100px;
             width:50%; 
-            background-color: rgb(180, 150, 28);
+            background-color: rgb(37, 240, 247);
             display: flex;
             padding: auto;
             justify-content:center;
             align-items: center;
+            margin-top: 20px;
         }
 
         input{
@@ -36,19 +40,35 @@
            
         }
         .new-div{
-
+            height:fit-content;
+            width:50%; 
+            background-color: cadetblue;
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: auto auto auto auto;
+            margin-bottom: 40px;
+            border: 2px solid black;
+
            
+        }
+         
+        .new-div button{
+            width: 50px;
+           
+        }
+        h1{
+            box-shadow: 4px 4px 1px black;
+            padding:0 8px 2px 0;
         }
         
     </style>
 </head>
 <body>
     <div class="main">
+        <h1>To do list</h1>
         <div class="center-div">
+            
             Enter here :<input name="Input" type="text">
-            <button onclick="newElement()">Click here for new elements</button><br>
+            <button onclick="newElement()">Create</button><br>
           
         </div>
         <div class="new-div"></div>
