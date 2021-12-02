@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(37, 18, 7)!important;
+    
+    
+}
+a{
+    text-decoration:none;
+}
+.main{
+    background-color: white !important;
+}
+.first{
+    margin-top: 70px !important;
+    margin-left:100px !important;
+}
+.fr-btns{
+    margin-left:170px;
+}
+.lead{
+    font-size:25px !important;
+    
+}
+.input-group {
+   margin-left: 110px;
+   margin-top:30px;
+
+}
+.last{
+     margin-left: 100px!important ;
+     margin-top:30px !important;
+    
+}
+.light{
+    color: rgb(146, 142, 142) !important;
+    font-weight: bold;
+    
+}
+.dark{
+    color: rgb(87, 86, 86)!important;
+    font-weight: bold;
+}
+
