@@ -36,6 +36,7 @@ function newElement(){
     deleteBtn.addEventListener('click',function(){newPara.remove();})
     deleteBtn.addEventListener('click',function(){editBtn.remove();})
     deleteBtn.addEventListener('click',function(){deleteBtn.remove();})
+    deleteBtn.addEventListener('click',function(){updateBtn.remove();})
 
 
     
