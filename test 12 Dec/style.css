@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+  font-family: Arial;
+  border-collapse: collapse;
+  margin-top: 5%;
+ 
+}
+table th,
+table td {
+  border: 2px solid #000000;
+  padding: 20px;
+
+  text-align: center;
+  color: black;
+}
+
+table td {
+  text-align: center;
+}
+div {
+  top: 0%;
+  position: fixed;
+}
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color:white;
+  background-color: black;
+}
+button:hover {
+  transform: translate(4px);
+  background-color: rgb(218, 229, 233);
+  color: #000000;
+  
+}
+.btn{
+    position: relative;
+}
+
