@@ -1,0 +1,27 @@
+body{
+    background: url("https://images.pexels.com/photos/707582/pexels-photo-707582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.inner{
+    width: fit-content;
+    box-shadow: 4px 4px 4px rgb(61, 42, 42);
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 22%;
+    left: 20%;
+}
+button{
+    padding: 0.3em 0.5em;
+    background:burlywood;
+    border-radius: 10%;
+    font-weight:bold;
+
+    
+
+}
